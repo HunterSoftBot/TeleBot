@@ -5,7 +5,9 @@ const plugin = {
     bot.onText(/^\/start$/, (msg) => {
       const From = msg.chat.id;
       const user = msg.from;
-      const caption = `Hi ${user.first_name}! Welcome to BetaBotz Ai. I'm a Telegram bot created by Lann to help you 😄, please type /menu to see all our menu lists.`;
+      const caption = `Haii ${user.first_name}! Selamat datang di Anya HSB. Bot ketiga dari Hunter Soft Bot. bot pertama dan kedua ada di whatsapp. kunjungi website kami huntersoftbot.biz.id
+
+jika ada kendala silakan type /creator untuk menghubungi pemilik bot.`;
       const replyMarkup = {
         reply_markup: {
           inline_keyboard: [
