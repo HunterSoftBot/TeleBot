@@ -8,7 +8,7 @@ const plugin = {
       const isOwnerCommand = msg.text === '/owner' || msg.text === '/creator';
 
       if (isOwnerCommand) {
-       const caption = `Hi ${user.first_name}! This is my owner\nThe name is: ${ownerName}\nThe number is: ${ownerNumber}`
+       const caption = `Hi ${user.first_name}!`
       const replyMarkup = {
         reply_markup: {
           inline_keyboard: [
