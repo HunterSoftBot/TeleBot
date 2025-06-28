@@ -5,7 +5,7 @@ Replace Your Key with the apikey that you get in your profile.
 */
 
 module.exports = {
-  ownerUsernames: ["adrian"],//Your Username
+  ownerUsernames: ["huntersoftbot"],//Your Username
   ownerNumber: "6283157292507",//Your Number 
   telegramBotToken: "7599365217:AAHYunGL40yDgNO6uz9mB5VuhnTwoHQv6Lc",//Your Bot Tokens
   imageUrl: "https://qu.ax/EyhaW.jpg",//Thumbnail Url
