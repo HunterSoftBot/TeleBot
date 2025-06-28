@@ -27,7 +27,7 @@ const plugin = {
             const photoBuffer = Buffer.concat(buffers);
             const up = await uploader(photoBuffer);
             const apiUrl = api + '/api/tools/remini';
-            const response = await fetch(apiUrl + '?apikey=' + apikey + '&url=' + encodeURIComponent(up));
+            const response = await fetch(apiUrl + '?url=' + encodeURIComponent(up) + '&apikey=' + apikey);
             const hdr = await response.json();
             var buffer = await (await fetch(hdr.url)).buffer()
             bot.sendPhoto(chatId, buffer, { reply_to_message_id: msg.message_id });
